@@ -1,0 +1,36 @@
+{
+  "name": "pure-render",
+  "version": "1.0.0",
+  "description": "pure render in order to replace PureRenderMixin",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "build": "babel src/index.js --out-file dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.dev.qianmi.com/OF730/pure-render.git"
+  },
+  "keywords": [
+    "pure",
+    "react",
+    "PureRenderMxin"
+  ],
+  "files": [
+    "package.json",
+    "dist"
+  ],
+  "author": "hufeng",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-jest": "^13.0.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.10.3",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "jest-cli": "^13.0.0"
+  },
+  "dependencies": {
+    "immutable": "^3.8.1"
+  }
+}
