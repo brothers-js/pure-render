@@ -11,7 +11,7 @@ HOC => 声明式的编程风格
 package.json
 
 {
-  "dependencies: {
+  "dependencies": {
     "pure-render": "^1.0.0"
   }
 }
