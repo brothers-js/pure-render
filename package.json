@@ -1,5 +1,5 @@
 {
-  "name": "pure-render",
+  "name": "qm-pure-render",
   "version": "1.0.0",
   "description": "pure render in order to replace PureRenderMixin",
   "main": "dist/index.js",
